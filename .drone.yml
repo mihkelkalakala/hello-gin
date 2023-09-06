@@ -5,7 +5,7 @@ steps:
 - name: docker
   image: harbor.k-space.ee/k-space/drone-kaniko
   settings:
-    repo: ${DRONE_REPO}
+    repo: kala/${DRONE_REPO}
     tags: latest
     registry: harbor.codemowers.eu
     username:
